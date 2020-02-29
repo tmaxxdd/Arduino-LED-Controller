@@ -4,20 +4,24 @@ This part of the project establish Arduino code that with no effort allows you t
 
 # Setup
 
+### What's needed
+* Any Arduino board. Uno is perfect just to start
+* Addressable LED strip compatible with 
+
 ### Installation
 Just download Arduino code and put it on the board
 
 ### Connection
-WS28212b standard uses three pins (5V, GND, DI) and they must be connected to Arduino board. For default it uses pin number 6 to send digital signals.
+WS28212b standard uses three pins (5V, GND, DIN) and they must be connected to Arduino board. For default it uses pin number 6 to send digital signals (DIN).
 
 ![Connection illustration](connection_illustration.png)
 
 ### Configuration
-First you need configure number of your pixels on the strip
+First you need configure number of your pixels on the strip.
 ```cpp
 #define DIODECOUNT 5
 ```
-Next select serial commands receiver. During development was used HC-05 Bluetooth module
+Next select serial commands receiver. During development was used HC-05 Bluetooth module.
 ```cpp
 SoftwareSerial bt(10, 11); // RX, TX
 ```
