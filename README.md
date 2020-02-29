@@ -9,4 +9,8 @@ Just download Arduino code and put it on the board
 
 ## Connection
 WS28212b standard uses three pins (5V, GND, DI) and they must be connected to Arduino board. For default it uses pin number 6 to send digital signals.
+
 ![Connection illustration](connection_illustration.png)
+
+## Configuration
+First you need configure number of your pixels on the strip
