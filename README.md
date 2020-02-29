@@ -15,6 +15,10 @@ WS28212b standard uses three pins (5V, GND, DI) and they must be connected to Ar
 ### Configuration
 First you need configure number of your pixels on the strip
 ```cpp
-    int cos = 0;
+#define DIODECOUNT 5
 ```
-
+Next select serial commands receiver. During development was used HC-05 Bluetooth module
+```cpp
+SoftwareSerial bt(10, 11); // RX, TX
+```
+For development reason you may want to uncomment all serial prints which should help to find out what commands are properly handled.
