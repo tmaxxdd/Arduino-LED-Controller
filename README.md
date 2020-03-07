@@ -10,7 +10,7 @@ This part of the project establish Arduino code that with no effort allows you t
 * Smartphone with Android 4.0.3 or higher
 
 ### Installation
-Just download Arduino code and put it on the board
+Just download Arduino code and put it on the board.
 
 You have to also download mobile app. As it is open source you can download it from Google Play Store or assembly on your own.
 
@@ -35,3 +35,8 @@ For development reason you may want to uncomment all serial prints which should 
 ```cpp
 //   Serial.println(F("LED receiver started"));
 ```
+And mostly is that all! Still you can modify illuminations or combine more independent strips, but this will require some time.
+
+# Contribution
+
+I am willing to consider any contributions on this project but for me is pre final version and development isn't planned at this moment. If you find a bug please submit an Issue in appropriate Github's tab.
