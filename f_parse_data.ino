@@ -38,12 +38,12 @@ void interpreteMessage(char message[]) {
   // Connection
   if (strncmp(message, CONNECTED, strlen(CONNECTED)) == 0){
     LED.BtConnected(25);
-    Serial.println(F("Connected"));
+//     Serial.println(F("Connected"));
   }
 
   if (strncmp(message, DISCONNECTED, strlen(DISCONNECTED)) == 0){
     LED.BtDisconnected(25);
-    Serial.println(F("Disconnected"));
+//     Serial.println(F("Disconnected"));
   }
 
   // Configuration
@@ -53,8 +53,8 @@ void interpreteMessage(char message[]) {
     "brig:" + LED.getBrightness() + "," + 
     "illu:" + currentIllumination + "\n";
     bt.print(configuration);
-    Serial.println(F("Configuration = "));
-    Serial.print(configuration);
+//     Serial.println(F("Configuration = "));
+//     Serial.print(configuration);
   }
 
   // Color
@@ -64,10 +64,10 @@ void interpreteMessage(char message[]) {
     if (isValidColor(result)) {
       parseColor(result);
       hexColor = result;     
-      Serial.print(F("Color = "));
-      Serial.println(result);
+//       Serial.print(F("Color = "));
+//       Serial.println(result);
     } else {
-      Serial.println(F("Invalid color!"));
+//       Serial.println(F("Invalid color!"));
     }
   }
 
@@ -77,10 +77,10 @@ void interpreteMessage(char message[]) {
     char* result = rmvstr(message, SET_BRIGHTNESS, arr);
     if (isValidBrightness(result)){
       LED.setBrightness(atoi(result));     
-      Serial.print(F("Brightness = "));
-      Serial.println(result);
+//       Serial.print(F("Brightness = "));
+//       Serial.println(result);
     } else {
-      Serial.println(F("Invalid brightness!"));
+//       Serial.println(F("Invalid brightness!"));
     }
   }
 
@@ -90,10 +90,10 @@ void interpreteMessage(char message[]) {
     char* result = rmvstr(message, SET_ILLUMINATION, arr);
     if (isValidIlluminationIndex(result)){
       currentIllumination = atoi(result);     
-      Serial.print(F("Illumination = "));
-      Serial.println(result);
+//       Serial.print(F("Illumination = "));
+//       Serial.println(result);
     } else {
-      Serial.println(F("Invalid illumination index!"));
+//       Serial.println(F("Invalid illumination index!"));
     }
   }
 }
