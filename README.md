@@ -5,11 +5,17 @@ This part of the project establish Arduino code that with no effort allows you t
 # Setup
 
 ### What's needed
-* Any Arduino board. Uno is perfect just to start
-* Addressable LED strip compatible with 
+* Any Arduino board. Uno is just perfect to start
+* Addressable LED strip compatible with Adafruit NeoPixel
+* Smartphone with Android 4.0.3 or higher
 
 ### Installation
 Just download Arduino code and put it on the board
+
+You have to also download mobile app. As it is open source you can download it from Google Play Store or assembly on your own.
+
+* Repository - https://github.com/tmaxxdd/LEDController
+* Google Play Store - https://play.google.com/store/apps/details?id=com.czterysery.ledcontroller
 
 ### Connection
 WS28212b standard uses three pins (5V, GND, DIN) and they must be connected to Arduino board. For default it uses pin number 6 to send digital signals (DIN).
