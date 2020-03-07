@@ -39,4 +39,4 @@ And mostly is that all! Still you can modify illuminations or combine more indep
 
 # Contribution
 
-I am willing to consider any contributions on this project but for me is pre final version and development isn't planned at this moment. If you find a bug please submit an Issue in appropriate Github's tab.
+I am willing to consider any contributions on this project. For me it is pre-final version and development isn't planned at this moment. If you find a bug please submit an issue in the appropriate Github's tab.
