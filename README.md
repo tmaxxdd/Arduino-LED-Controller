@@ -26,3 +26,6 @@ Next select serial commands receiver. During development was used HC-05 Bluetoot
 SoftwareSerial bt(10, 11); // RX, TX
 ```
 For development reason you may want to uncomment all serial prints which should help to find out what commands are properly handled.
+```cpp
+//   Serial.println(F("LED receiver started"));
+```
