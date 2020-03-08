@@ -2,7 +2,7 @@
 
 This part of the project establish Arduino code that with no effort allows you to communicate with your LED strips. Project is focused on WS2812b LED strips as they are one of the cheapest and powerful available on the market.
 
-<iframe src="https://giphy.com/embed/dXQkB1S1Fzysr2eBVP" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/led-strip-ledcontroller-dXQkB1S1Fzysr2eBVP">via GIPHY</a></p>
+![Showcase](https://giphy.com/embed/dXQkB1S1Fzysr2eBVP")
 
 # Setup
 
