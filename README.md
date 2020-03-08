@@ -2,7 +2,9 @@
 
 This part of the project establish Arduino code that with no effort allows you to communicate with your LED strips. Project is focused on WS2812b LED strips as they are one of the cheapest and powerful available on the market.
 
-![Showcase](https://media.giphy.com/media/dXQkB1S1Fzysr2eBVP/giphy.gif)
+<p align="center">
+<img src="https://media.giphy.com/media/dXQkB1S1Fzysr2eBVP/giphy.gif">
+</p>
 
 # Setup
 
